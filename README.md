@@ -6,8 +6,8 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 
 ### Data set 'tidy_data.txt' is a summary of a the dataset above, grouped by 'subject' and 'activity'.
 
-* #####'subject' refers to a participant in the original study
-* #####'activity' refers to 6 activities that were performed and measured as part of the original study:
+* 'subject' refers to a participant in the original study
+* 'activity' refers to 6 activities that were performed and measured as part of the original study:
 
 ### From UCI's description of the original data set:
 
@@ -48,6 +48,15 @@ The file contains 180 rows and 68 columns.  Each column is seperated by comma.  
 ### To re-create the tidydata dataset
 
 To re-create the tidydata data set, download run_analysis.R, and the original data set from the link provided above.
+
+```
+> getwd()
+[1] "C:/Dropbox/data-science/getting_and_cleaning_data/project/UCI HAR Dataset"
+> source("run_analysis.R")
+
+```
+
+
 
 Upon un-zipping the dataset, a directory named 'UCI HAR Dataset' will be created.  This folder contains 2 sub-folders that contain the data files.  For the purposes of re-creating this dataset, the R working directory is assumed to be the directory 'UCI HAR Dataset'.
 
