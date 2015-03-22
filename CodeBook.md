@@ -43,11 +43,12 @@ All angular measurement values are of units radians/second.
     
 ### Column order, type, name, and column description:    
 
-Order:  Type:   Column name:                Description:
+```
+Order: Type:   Column name:                 Description:
                                             
-1       chr     activity                    activity being performed
+1     chr      activity                     activity being performed
 
-2       int     subject                      identifies the subject who performed the activity for each window sample. range is from 1 to 30.
+2     int      subject                      identifies the subject who performed the activity for each window sample. range is from 1 to 30.
 
 3     num      t.BodyAcc.mean.X             mean body acceleration, x direction
 
@@ -180,4 +181,4 @@ Order:  Type:   Column name:                Description:
 67    num      f.BodyBodyGyroJerkMag.mean   mean body body angular acceleration jerk magnitude
 
 68    num      f.BodyBodyGyroJerkMag.std    standard deviation body angular acceleration jerk magnitude
-
+```
